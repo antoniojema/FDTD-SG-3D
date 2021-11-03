@@ -1,0 +1,124 @@
+Built on 15-01-2020  19:49
+Built on 15-01-2020  19:49
+__________________________________________
+__________________________________________
+__________________________________________
+__________________________________________
+UGRFDTD (http://www.sembahome.org)
+  Current development team:
+       Salvador G. Garcia  (head) (salva@ugr.es)
+       Luis D. Angulo             (lmdiazangulo@ugr.es)
+       Miguel R. Cabello          (mcabello@ugr.es)
+  Testing by:
+       Guadalupe Gutierrez (guadalupe.gutierrez@airbus.com)
+       Enrique Pascual Gil (enrique.pascual@airbus.com)
+__________________________________________
+Compiled without MPI support
+__________________________________________
+Its use has been licensed to: Internal
+Until  2/ 8/2999
+under the EULA stated by executing this code with the -eula switch
+__________________________________________
+Compiled with Single Precision (real*4)
+__________________________________________
+Launched on              01/15/2020 19:56
+__________________________________________
+Launched with total options
+-cfl 0.8 -i sim.nfde
+If later resuming use compulsory options
+mpirun -n    1 -cfl 0.8
+__________________________________________
+INIT conversion internal ASCII => Binary
+__________________________________________
+__________________________________________
+__________________________________________
+Correcting sgg%dt with -cfl switch. New time step:   1.0894158E-10
+__________________________________________
+__________________________________________
+CFLN=   0.8000000
+__________________________________________
+__________________________________________
+Deltat=   1.0894158E-10
+__________________________________________
+INIT NFDE->GEOM
+INIT UPDATING SHARED INFO. This process may take time!
+Launch with -noshared to skip this process (just relevant for CFCs and Anisot.)
+[OK] END UPDATING SHARED INFO
+[OK] ENDED NFDE->GEOM
+!SLICES_1060
+_________Spanning from z=    -10 to z=   1050
+[OK] Ended conversion internal ASCII => Binary
+Init Conformal Mesh ...
+----> No Conformal Mesh found
+[OK] Ended Conformal Mesh
+__________________________________________
+Original Final Time Step=         1999
+Corrected Final Time Step=          423
+__________________________________________
+Solver launched with options:
+---> DigFilt solver for NIBC multilayer: F
+---> MIBC    solver for NIBC multilayer: F
+---> ADE     solver for NIBC multilayer: F
+---> SGBC    solver for multilayer: T
+---> SGBC DISPERSIVE solver for multilayer: F
+---> SGBC Crank-Nicolson solver for multilayer: T
+---> SGBC Depth: -1
+---> SGBC Freq: 1.0000000E+09
+---> SGBC Resol: 1.000000
+---> SKINDEPTHPRE preprocessing for multilayer: F
+---> Conformal file external: F
+---> Conformal solver: F
+---> Conformal thin-gap solver: T
+---> DMMA thin-gap solver: F
+---> Hybrid ThZ solver: F
+---> Wire model: holland
+---> Inductance model: boutayeb
+---> Holland -stablerad automatic correction switch: F
+---> Thin-wire double-tails removed: T
+---> Thin-wire -fieldtotl experimental switch: F
+---> BINARY entry file .nfde: F
+__________________________________________
+Init Reporting...
+__________________________________________
+[OK]
+Init Other Borders...
+----> there are PEC, PMC or periodic Borders
+Init CPML Borders...
+----> there are CPML Borders
+Init PML Bodies...
+----> no PML Bodies found
+Init Mur Borders...
+----> no Mur Borders wires found
+Init Holland Wires...
+----> no Holland/transition wires found
+Init Lumped Elements...
+----> no lumped elements found
+Init Anisotropic...
+----> no anistropic elements found
+Init Multi SGBC...
+----> no SGBC elements found
+Init EDispersives...
+----> no Electric dispersive elements found
+Init MDispersives...
+----> no Magnetic dispersive elements found
+Init Multi Plane-Waves...
+----> there are Plane Wave
+Init Nodal Sources...
+----> no Nodal sources are found
+Init Observation...
+----> there Observation requests
+Init Timing...
+Total Mcells:   0.1060000
+NO flushing of restarting FIELDS scheduled
+Flushing observation DATA every      10000000  minutes and every         1024  steps
+Reporting simulation info every             1  minutes
+__________________________________________
+Simulation from n=           0  to n=         423
+Date/time 15/01   19:56:17
+__________________________________________
+Closing warning file. Number of messages:            0
+__________________________________________
+END PREPROCESSING. STARTING simulation.
+__________________________________________
+Start Date/time 15/01   19:56:17
+__________________________________________

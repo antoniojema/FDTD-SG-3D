@@ -1,0 +1,62 @@
+{
+    "format": "Pyfdtd3D 2.0",
+
+    "timeSteps": {
+        "delta": 1e-11,
+        "cfl": 0.8,
+        "finalTimeStep": 10000,
+        "localTimeStepping": true
+    },
+
+    "spaceSteps": {
+        "x": {
+            "origin": 0,
+            "cells": [-10, 50],
+            "delta": 0.1
+        },
+        "y": {
+            "origin": 0,
+            "cells": [-10, 50],
+            "delta": 0.1
+        },
+        "z": {
+            "origin": 0,
+            "cells": [-10, 50],
+            "delta": 0.1
+        }
+    },
+
+    "boundaries": {
+        "all": "pec"
+    },
+
+    "subgrids": [
+        {
+            "cells": [
+                [],
+                []
+            ]
+        }
+    ],
+
+    "sources": [
+        {
+            "type": "dipole",
+            "cells": [
+                [0, 0, 0],
+                [1, 1, 1]
+            ],
+            "field": "Hx",
+            "magnitude": {
+                "type": "gaussian",
+                "gaussianHeight": 1,
+                "gaussianDelay": 0.05e-6,
+                "gaussianSpread": 5e-9
+            }
+        }
+    ],
+
+    "probes": [
+
+    ]
+}
